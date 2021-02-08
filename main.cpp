@@ -16,6 +16,8 @@
 using namespace std;
 
 int main() {
+    map<string, Books> library;
+    map<string, Readers> listReaders;
     int menu;
     string temp;
     string key;
